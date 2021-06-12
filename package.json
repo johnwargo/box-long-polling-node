@@ -1,0 +1,19 @@
+{
+  "name": "box-long-polling",
+  "version": "0.0.1",
+  "description": "Node module that implements Box Long Polling",
+  "main": "box-long-poll.js",
+  "bin": {
+    "box-long-polling": "bin/box-long-poll.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John M. Wargo <john@johnwargo.com> (johnwargo.com)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0"
+  }
+}
